@@ -1,0 +1,85 @@
+﻿ViewMatrix: ac_client.exe+101AAC
+Player Base:"ac_client.exe"+0x109B74/0x509B74
+Player Health:0xF8
+Player Primary:0x128
+Player Primary Clip:0x150
+Player Secondary:0x114
+Player SecondaryClip:0x13C
+Player Grenade Ammo:0x158
+Player Armor:0xFC
+Player Position XY:0x4
+Player Position XY:0x8
+Player Position Z:0xC
+Player View Angle Verticle:0x44
+Player View Angle Horizontal:0x40
+Time Between Knifes:0x160
+Pistol Timer:0x164
+Primary Timer:0x178
+Grenade Timer(?):0x180
+Mouse Button Down:0x224
+Entity Base:"ac_client.exe"+0x110D90/0x510D90
+TeamOffset1:0x204
+TeamOffset2:0x32C
+
+//others
+baseAddress = 0x400000;
+            offsetLocalPlayer = 0x10F4F4;
+            localPlayer = 0;
+
+            teamOffset1 = 0x204;
+            teamOffset2 = 0x32C;
+
+            m_XPos = 0x38;
+            m_YPos = 0x3C;
+            m_ZPos = 0x40;
+
+            m_ViewAngleX = 0x40;
+            m_ViewAngleY = 0x44;
+
+            m_isPosMoving = 0x70;
+            m_Speed = 0x80;
+            m_Health = 0xF8;
+            m_Vest = 0xFC;
+            m_AmmoMags = 0x128;
+            m_Ammo = 0x150;
+            m_SecAmmo = 0x13C;
+            m_Grenades = 0x158;
+            m_WeaponTimer = 0x178;
+            m_ShotsFired = 0x1A0;
+
+
+            sv_GetMode = 0x50F49C;
+            sv_ClientNumber = 0x510198;
+            sv_name = 0x51019C;
+            p_MaxRoll = 0x510144;
+            p_AutoReload = 0x5101D0;
+            o_Paused = 0x510CE0;
+            o_GameSpeed = 0x510CDC;
+            m_MouseShotSensitivity = 0x4EE444;
+            m_InvertMouse = 0x51016C;
+            h_ToggleConsole = 0x4FEC10;
+            h_ShowTarget = 0x50F284;
+            h_ShowSpeed = 0x50F288;
+            h_ShowScoreOnDeath = 0x50F514;
+            h_ShowRadarValues = 0x50F268;
+            h_ShowMap = 0x50F240;
+            h_Righthanded = 0x510A4C;
+            h_RadarHeight = 0x50F264;
+            h_RadarEntSize = 0x50F208;
+            h_OldAmmoHUD = 0x510A48;
+            h_HideRadar = 0x50F21C;
+            h_HideHudMessages = 0x50F230;
+            h_HideHudEquipment = 0x50F234;
+            h_HideDamageIndicator = 0x50F248;
+            h_HideCompass = 0x50F220;
+            h_DrawGun = 0x50F200;
+            h_DrawFPS = 0x50F210;
+            h_DbgPos = 0x50F280;
+            h_DamageScreenFade = 0x50F278;
+            h_DamageScreenFactor = 0x50F270;
+            h_DamageScreenAlpha = 0x50F274;
+            h_DamageScreen = 0x50F26C;
+            h_CrosshairSize = 0x50F20C;
+            g_GameVersion = 0x510CF4;
+            dbg_FlySpeed = 0x510148;
+            EngineState_Test = 0x509BD8;
